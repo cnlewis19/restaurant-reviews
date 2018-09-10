@@ -181,7 +181,6 @@ createRestaurantHTML = (restaurant) => {
   more.tabIndex = '3';
   more.setAttribute('aria-label', 'view details for ' + restaurant.name);
   li.append(more)
-
   return li
 }
 
